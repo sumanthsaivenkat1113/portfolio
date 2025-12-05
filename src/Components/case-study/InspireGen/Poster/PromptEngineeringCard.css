@@ -1,0 +1,14 @@
+@keyframes scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(200%); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 0.6; }
+  50% { transform: translateY(-120px) translateX(40px) rotate(180deg); opacity: 1; }
+}
+
+.animate-scan { animation: scan 6s linear infinite; }
+.animate-float { animation: float linear infinite; }
+.animate-pulse-slow { animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+.perspective-1000 { perspective: 1000px; }
