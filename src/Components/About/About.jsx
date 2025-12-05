@@ -1,5 +1,5 @@
 import "./About.css";
-import profilePic from "../../assets/Profile.jpeg";
+import profilePic from "../../assets/profile.jpeg";
 export default function About() {
   return (
     <section id="about" className="about-section fade-in">
