@@ -1,5 +1,5 @@
-import PosterGenerationHeader from "./poster/PosterGenerationHeader";
-import UserInputTerminal from "./poster/UserInputTerminal";
+import PosterGenerationHeader from "./Poster/PosterGenerationHeader";
+import UserInputTerminal from "./Poster/UserInputTerminal";
 import PromptEngineeringCard from "./Poster/PromptEngineeringCard";
 import LLMOutputCard from "./Poster/LLMOutputCard";
 import ArrowConnector from "./Poster/ArrowConnector";
